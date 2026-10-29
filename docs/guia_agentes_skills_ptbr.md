@@ -115,7 +115,7 @@ python .github/skills/fluxo-orquestrado-hexagonal/scripts/gerar_checklist_fluxo.
 
 2. Resumo de sessao:
 python .github/skills/documentar-sessao/scripts/gerar_resumo_sessao.py
-python .github/skills/documentar-sessao/scripts/gerar_resumo_sessao.py --saida docs/06_progresso/historico/sessao_2026-04-03.md
+python .github/skills/documentar-sessao/scripts/gerar_resumo_sessao.py --saida docs/05_progresso/historico/sessao_2026-04-03.md
 
 3. Checklist de encerramento:
 python .github/skills/encerrar-sessao/scripts/checklist_encerramento.py --repo .

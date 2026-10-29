@@ -14,7 +14,7 @@
     "formato_nome_arquivo": "{commit}_{timestamp}{extensao}"
   },
   "sessao": {
-    "historico_relativo_repo": "docs/06_progresso/historico",
+    "historico_relativo_repo": "docs/05_progresso/historico",
     "formato_nome_arquivo": "sessao_{data}.md",
     "titulo_padrao": "Resumo da Sessao"
   },

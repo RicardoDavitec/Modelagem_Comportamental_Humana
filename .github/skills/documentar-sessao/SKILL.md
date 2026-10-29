@@ -23,7 +23,7 @@ user-invocable: true
 
 Exemplo:
 - `python .github/skills/documentar-sessao/scripts/gerar_resumo_sessao.py`
-- `python .github/skills/documentar-sessao/scripts/gerar_resumo_sessao.py --saida docs/06_progresso/historico/sessao_2026-04-03.md`
+- `python .github/skills/documentar-sessao/scripts/gerar_resumo_sessao.py --saida docs/05_progresso/historico/sessao_2026-04-03.md`
 
 ## Endpoint operacional
 - Arquivo central: `/.github/skills/config/endpoints_operacionais.json`

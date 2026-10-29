@@ -84,7 +84,7 @@ def resolve_backup_destino(repo_root: Path, config: dict) -> Path:
 
 def resolve_sessao_historico(repo_root: Path, config: dict) -> Path:
     sessao_cfg = config.get("sessao", {})
-    pasta_rel = sessao_cfg.get("historico_relativo_repo", "docs/06_progresso/historico")
+    pasta_rel = sessao_cfg.get("historico_relativo_repo", "docs/05_progresso/historico")
     return (repo_root / pasta_rel).resolve()
 
 

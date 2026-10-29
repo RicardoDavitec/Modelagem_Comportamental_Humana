@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+*.crdownload
 *.pyo
 *.pyd
 .venv/
@@ -8,3 +9,16 @@ venv/
 .env.local
 .DS_Store
 Thumbs.db
+*:Zone.Identifier
+*Zone.Identifier
+.~lock.*
+
+# O GitHub recusa blobs acima de 100 MB.
+docs/06_literatura/apontamentos_filosoficos/PALESTRAS.zip
+
+# Acervo de terceiros: permanece na maquina, fora do repositorio publico.
+docs/06_literatura/Biblioteca/**
+!docs/06_literatura/Biblioteca/README.md
+docs/06_literatura/Neuroplasticidade medula espinal/*.pdf
+docs/06_literatura/**/PhysRevLett*.pdf
+docs/06_literatura/**/*filosofia espirita.pdf

@@ -46,7 +46,7 @@ def load_env_file(repo_root: Path) -> None:
 def default_saida(repo_root: Path, config: dict) -> Path:
     sessao_cfg = config.get("sessao", {})
     pasta_rel = os.environ.get(ENV_SESSAO_HISTORICO_RELATIVO_REPO) or sessao_cfg.get(
-        "historico_relativo_repo", "docs/06_progresso/historico"
+        "historico_relativo_repo", "docs/05_progresso/historico"
     )
     formato = os.environ.get(ENV_SESSAO_FORMATO_NOME_ARQUIVO) or sessao_cfg.get(
         "formato_nome_arquivo", "sessao_{data}.md"

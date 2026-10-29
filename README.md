@@ -9,7 +9,7 @@ Kit reutilizavel de agentes e skills para VS Code + Copilot Chat, com foco em op
 - `.github/skills/config/endpoints_operacionais.json`: endpoints padrao de backup/sessao.
 - `.env.endpoints.example`: exemplo de variaveis de ambiente por maquina.
 - `docs/guia_agentes_skills_ptbr.md`: guia de uso em Portugues-BR.
-- `docs/00_visao_geral` ate `docs/06_progresso/historico`: esqueleto padrao de documentacao.
+- `docs/00_visao_geral` ate `docs/06_literatura`: esqueleto de documentacao. O historico de sessao fica em `docs/05_progresso/historico`.
 
 ## Skills principais
 
@@ -29,6 +29,7 @@ Kit reutilizavel de agentes e skills para VS Code + Copilot Chat, com foco em op
 2. Copie as variaveis necessarias de `.env.endpoints.example` para o `.env` local do projeto alvo.
 3. Ajuste caminhos por maquina (Windows/Linux/Darwin).
 4. Use os scripts das skills para validar operacao.
+5. Espelhe agentes e skills para o Cursor: `python scripts/espelhar_cursor.py`. No Windows, sem WSL, o script cria junction (`mklink /J`), que nao exige administrador. No Linux e no macOS, cria link simbolico relativo.
 
 ## Arvore padrao de docs
 
@@ -38,7 +39,8 @@ Kit reutilizavel de agentes e skills para VS Code + Copilot Chat, com foco em op
 - `docs/03_implementacao`
 - `docs/04_operacao`
 - `docs/05_progresso`
-- `docs/06_progresso/historico`
+- `docs/05_progresso/historico`
+- `docs/06_literatura`
 
 ## Precedencia de configuracao (backup/sessao)
 
